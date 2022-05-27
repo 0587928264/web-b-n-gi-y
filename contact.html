@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;family=Water+Brush&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Liên hệ</title>
+</head>
+<body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo-brand" href="index.html"><img src="./images/logo.jpg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="introduce.html">Giới thiệu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <i class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sản Phẩm
+                </i>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-content">
+                        <li><a class="dropdown-item" href="product-for-man.html">Giày nam</a></li>
+                        <li><a class="dropdown-item" href="product-for-woman.html">Giày nữ</a></li>
+                    </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="news.html"style="font-size: 15pt;">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="contact.html"style="font-size: 15pt;">Liên hệ</a>
+              </li>
+            </ul>
+            <div class="logo-search">
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+              </form>
+              <a href="index.html"><button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+          </div>
+          <div class="icon-cart">
+            <a href="cart.html">
+                <i class="fa-regular fa-cart-shopping"></i>
+                <i id="child_icon2" class="fa-solid fa-circle-1"></i> <br>
+                <span>Giỏ hàng</span>
+            </a>
+        </div>
+
+        <div class="icon-account">
+            <i class="fa-regular fa-user"></i> <br>
+            <span><a href="sign-up.html">Đăng ký</a>/<a href="sign-in.html">Đăng nhập</a></span>
+        </div>
+          </div>
+        </div>
+    </nav>
+      <!--Liên hệ-->
+      <div class="contact-us">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0574538576975!2d106.62641241471863!3d10.806911692300854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x9f7b3cc581e940f5!2zMTQwIEzDqiBUcuG7jW5nIFThuqVuLCBUw6J5IFRo4bqhbmgsIFTDom4gUGjDuiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1653016241652!5m2!1svi!2s" width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          <div class="contact">
+              <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+              <div class="logo-contact"><a class="navbar-brand" href="index.html"><img src="./images/logo.jpg"></a></div>
+              <div class="form-contact">
+                  <form class="row g-3">
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputText"placeholder="Họ và tên">
+                      </div>
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputEmail"placeholder="Email">
+                      </div>
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputNumber" placeholder="Số điện thoại">
+                      </div>
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Địa chỉ">
+                      </div>
+                      <div class="mb-3">
+                        <textarea style="box-shadow:4px 4px 10px aqua;" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lời nhắn..."></textarea>
+                      </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="send" class="btn btn-secondary">Gửi</button>
+                      </div>
+                    </form>
+              </div>
+          </div>
+      </div>
+      <div id="footer">
+        <div>
+            <h2>Liên hệ</h2><br/>
+            <i class="fa-solid fa-map-location-dot"></i> Địa chỉ: 140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, Thành phố Hồ Chí Minh <br>
+            <i class="fa-solid fa-phone-volume"></i> Số điện thoại: (+84) 58 792 8264 <br>
+            <i class="fa-solid fa-envelope-circle-check"></i> Email: 0587928264ts@gmail.com
+            <br/>
+            <br/>
+            <img src="http://mauweb.monamedia.net/floda/wp-content/uploads/2019/09/payment-pic.png" alt="">
+        </div>
+    </div>
+</body>
